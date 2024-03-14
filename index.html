@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+    <form id="transaction-form">
+        <label for="type">Type:</label><br>
+        <input type="text" id="type" name="type"><br>
+        <label for="amount">Amount in $:</label><br>
+        <input type="text" id="amount" name="amount"><br>
+        <label for="description">Description:</label><br>
+        <input type="text" id="description" name="description"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <button onclick="exportTransactions()">Export to Excel</button>
+    <script src="script.js"></script>
+</body>
+</html>
